@@ -1,0 +1,8 @@
+numpy>=1.24
+opencv-python>=4.8
+PyWavelets>=1.5
+scikit-learn>=1.3
+hmmlearn>=0.3
+PyYAML>=6.0
+# Optional real event-camera support:
+# dv-processing>=1.7

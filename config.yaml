@@ -1,0 +1,13 @@
+video:
+  threshold: 0.08
+  resize: [320, 240]
+  bin_ms: 33
+  context_bins: 16
+  grid: [2, 2]
+features:
+  wavelet: db2
+  level: 3
+  min_events_for_flicker: 10
+classifier:
+  method: rule
+  flame_threshold: 0.55
